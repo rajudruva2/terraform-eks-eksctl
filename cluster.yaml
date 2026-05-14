@@ -4,14 +4,14 @@ kind: ClusterConfig
 metadata:
   name: dev-eks
   region: ap-south-1
-  version: "1.30"
+  version: "1.33"
 
 managedNodeGroups:
   - name: workers
     instanceType: t3.medium
     desiredCapacity: 2
     minSize: 2
-    maxSize: 3
+    maxSize: 2
     volumeSize: 20
 
 iam:
