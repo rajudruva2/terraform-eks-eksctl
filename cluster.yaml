@@ -9,9 +9,9 @@ metadata:
 managedNodeGroups:
   - name: workers
     instanceType: t3.medium
-    desiredCapacity: 2
-    minSize: 2
-    maxSize: 2
+    desiredCapacity: 1
+    minSize: 1
+    maxSize: 1
     volumeSize: 20
 
 iam:
