@@ -3,16 +3,16 @@ kind: ClusterConfig
 
 metadata:
   name: dev-eks
-  region: ap-south-1
+  region: us-east-1
   version: "1.33"
 
 managedNodeGroups:
   - name: workers
-    instanceType: t3.medium
+    instanceType: t3.xlarge
     desiredCapacity: 1
     minSize: 1
     maxSize: 1
-    volumeSize: 20
+    volumeSize: 40
 
 iam:
   withOIDC: true
