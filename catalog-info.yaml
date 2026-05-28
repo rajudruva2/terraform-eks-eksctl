@@ -11,4 +11,4 @@ metadata:
 spec:
   type: infrastructure
   lifecycle: experimental
-  owner: rajudruva2
+  owner: user:default/rajudruva2
