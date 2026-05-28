@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-eks-eksctl
+  annotations:
+    github.com/project-slug: rajudruva2/terraform-eks-eksctl
+spec:
+  type: other
+  lifecycle: unknown
+  owner: platform-team
